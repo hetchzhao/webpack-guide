@@ -1,3 +1,5 @@
+import './style.css';
+
 const App = document.getElementById('app');
 
 const render = () => {
