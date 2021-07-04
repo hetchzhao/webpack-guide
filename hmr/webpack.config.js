@@ -10,6 +10,10 @@ module.exports = {
     port: 8080,
     hot: true 
   },
+  output: {
+    filename: "[name].js",
+    path: path.resolve(__dirname, "dist")
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './public/index.html')

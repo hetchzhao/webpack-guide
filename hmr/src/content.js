@@ -1,5 +1,6 @@
 export default `
-<h1>Hello Vanilla!</h1>
+<h1>Hello Vanilla! </h1>
+count:13
 <div>
   We use the same configuration as Parcel to bundle this sandbox, you can find more
   info about Parcel 
